@@ -1,0 +1,10 @@
+Faça um programa que leia uma matriz quadrada 9x9 de um arquivo texto. Verifique se a matriz representa a solução para o problema do sudoku.
+Escreva mensagem: "solução válida" ou "solução inválida" de acordo com o determinado em seu programa.  
+
+Para ser considerada uma solução válida, a matriz 9x9 não deve apresentar valores repetidos em cada uma das linhas e colunas,
+bem como também ***não ocorrer repetições em cada uma das matrizes 3x3***.  
+
+Seu programa deve apresentar:
+ - Alocação dinâmica de memória (com a matriz que armazena o sudoku com ponteiro duplo - ou seja **);
+ - Estruture seu programa com funções;
+ - Somente variáveis locais (variáveis criadas por "define" são exceção);

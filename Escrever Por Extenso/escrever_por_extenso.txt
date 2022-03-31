@@ -1,0 +1,18 @@
+Faça um programa que leia um valor numérico, representando um valor em moeda nacional corrente (Real) e escreva o valor por extenso.
+
+Por exemplo: para o valor R$ 123,87 seria escrito "cento e vinte e três reais e oitenta e sete centavos".
+
+Seu programa deve ler um número indeterminado de valores e escreva por extenso o valor equivalente.
+O programa deve finalizar quando for digitado o valor 0 (zero), sendo que somente valores positivos e inferiores a R$10.000,00 serão aceitos.
+Os dois últimos dígitos correspondem a dezena de centavos.
+
+Obrigatório usar string (na escrita do valor).
+
+char *palavra[] = {"aaa", "xb", "yccc"};
+palavra[0] = aaa;
+strlen(palavra[0]) = 3;
+palavra[1][0] = x;
+char *p;
+p = palavra[2] = y;
+strlen(p) = 4;
+*(p+1) = c

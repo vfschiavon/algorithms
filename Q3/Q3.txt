@@ -1,0 +1,25 @@
+Faça um programa para verificar se uma matriz 12x12 é uma resposta correta para o problema do jogo sudoku X. O sudoku X é uma matriz 12x12
+com o mesmo comportamento do suduku (9x9), ou seja, uma solução é considera correta se não ocorrer repetições de valores em cada linha,
+coluna e nas sub matrizes (3x4). Uma das sub matrizes é apresentada em destaque na figura. Cada célula da matriz pode assumir valores de 1 a 12.
+No sudoku X também não deve ocorrer repetição nas diagonais da matriz (entre os elementos marcados em amarelo e entre os elementos
+marcados em verde). A figura abaixo apresenta um exemplo de solução válida para sudoku X.
+
+(Exemplo no Moodle)
+
+Sua solução deve apresentar funções, onde pelo menos uma delas deve apresentar passagem de parâmetro por referência, trabalhando
+somente com ponteiros dentro das funções.
+
+Realizar a leitura dos valores de arquivo texto e armazenar em uma matriz alocada dinamicamente:
+
+int ** sudoku;
+
+sudoku = malloc (12*sizeof(int))
+
+for (i=0;i<12;i++)
+{
+	sudoku[i] = malloc (12*sizeof(int))
+}
+
+Enviar código fonte e arquivo com a matriz válida para teste.
+
+Não utilizar variáveis globais.
