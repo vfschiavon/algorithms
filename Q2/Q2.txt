@@ -1,0 +1,42 @@
+Considere uma matriz M de tamanho MAX_LIN x MAX_COL utilizada para representar gotas de água (caractere 'N') em uma janela.
+A cada unidade de tempo T (ou passo), as gotas do tipo “n” (normais) descem uma posição na matriz (uma linha), até que atinjam
+a base da janela e desapareçam. Considere o término da chuva no momento em que seu programa iniciou.
+
+Exemplo: (está no Moodle)
+
+Importante: existem gotas “especiais” (representadas pela letra “E” na figura) que descem com o dobro da velocidade das outras
+gotas, ou seja, as gotas identificadas com a letra “e” no arquivo de entrada, descem duas linhas na matriz a cada instante T (ou passo).
+As gotas mais rápidas podem encontrar gotas mais lentas pelo caminho, neste caso a gota mais lenta desaparece ficando somente a
+mais rápida.
+
+Faça um programa para simular o deslizamento das gotas na janela, com as seguintes funções:
+
+a) Leia as coordenadas iniciais das gotas de água na matriz de um arquivo. O canto superior esquerdo da matriz (desconsiderando as
+bordas) possui coordenada (1,1). A coordenada (0,0) indica o término da leitura. Coordenadas inválidas devem ser desconsideradas.
+
+Exemplo de entrada para a matriz acima:
+
+1 4 e
+
+1 13 n
+
+4 6 n
+
+2 8 n
+
+100 98 n (descartado pois excede MAX_LIN e/ou MAX_COL)
+
+4 10 e
+
+0 0
+
+Sempre que a coordenada exceder o limite de MAX_LIN e/ou MAX_COL, deverá ser descartada.
+
+b) Para cada ciclo, atualize a posição das gotas na janela e escreva a representação da janela na tela (como apresentado no exemplo,
+sempre na vertical), aguarde um intervalo de tempo e repita o processo até que não reste nenhuma gota na janela.
+
+c) Determine e escreva a quantidade de passos necessária para que todas as gotas tenham deixado a janela.
+
+Utilize #define para definir os valores de MAX_LIN e MAX_COL.
+
+Sua solução deve apresentar funções. Enviar código fonte e arquivo com coordenadas iniciais das gotas. Não utilizar variáveis globais.
