@@ -1,0 +1,32 @@
+Uma lista de vetores é uma estrutura onde cada célula apresenta um vetor interno. A inserção de elementos em uma lista ocorre
+da seguinte forma: percorrendo a lista, ao encontrar uma célula com espaço disponível em seu vetor, será utilizado esse espaço
+para armazenar o novo elemento, se não houver espaço disponível em nenhum vetor da lista, deve-se alocar um novo nó (célula)
+na memória e inserimos o novo elemento no início do vetor alocado.
+
+Faça as funções para manipulação da lista:
+
+	insere_elemento: que insere um elemento X na primeira posição disponível do vetor interno da lista ligada de vetores;
+
+	remove_elemento: retira o primeiro elemento da lista cujo valor seja igual a n (leia o valor de n), informe se o elemento
+		foi removido ou não. Após a remoção, se o vetor se tornar totalmente vazio, a célula que contém o vetor vazio
+		deve ser removida, mantendo os demais nós (células) da lista ligada;
+
+	compacta_lista: objetivo será reduzir espaço total que a lista ocupa, da seguinte forma: não deixar espaço vazio em
+		vetores nas células da lista ligada (com exceção da última célula). Remover as células em que todas as
+		posições do vetor estajam desocupadas (faça a liberação de memória para células não utilizadas);
+
+	imprime_lista: exibe na tela os elementos do vetor de cada célula.
+
+
+Disponibilize um menu para ativação dessas funções.
+
+struct cel
+ {
+	int vet[3];
+
+	struct cel *prox;
+};
+typedef struct cel celula;
+
+
+Sua solução deve apresentar funções. Enviar código fonte. Não utilizar variáveis globais.
