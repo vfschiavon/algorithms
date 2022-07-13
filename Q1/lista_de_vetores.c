@@ -1,4 +1,4 @@
-//Nome: Vinícius Ferreira Schiavon RA: 202100560434
+//Nome: Vinícius Ferreira Schiavon RA: ************
 /*Programa feito para realizar as operações de inserção, remoção, compactação e impressão em uma lista de vetores*/
 
 #include<stdio.h>
