@@ -1,4 +1,4 @@
-//Nome: Vinícius Ferreira Schiavon RA: 202100560434
+//Nome: Vinícius Ferreira Schiavon RA: ************
 //Programa feito para ler um sudoku de um arquivo e verificar se ele está correto ou não.
 //OBS: o programa apresenta uma função "Escreve" que exibe o sudoku para o usuário, como o enunciado não exigia a escrita do 
 // sudoku eu deixei essa função marcada como comentário, mas caso queira ver ela funcionando, basta remover as marcações de
