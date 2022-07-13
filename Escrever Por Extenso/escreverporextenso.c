@@ -1,8 +1,6 @@
-//Nome: Vinícius Ferreira Schiavon RA: 202100560434 
+//Nome: Vinícius Ferreira Schiavon RA: ************
 #include <stdio.h>
-//#include <math.h>
-/*Li em alguns lugares que pra usar a função roundf é necessário o math.h, no meu computador rodou sem essa biblioteca sem problemas, mas
-caso ocorra algum problema referente a função roundf é só remover as duas barras na frente do include.*/
+#include <math.h>
 
 int *calcuni(float n);
 
