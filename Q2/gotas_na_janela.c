@@ -1,4 +1,4 @@
-//Nome: Vinícius Ferreira Schiavon RA: 202100560434
+//Nome: Vinícius Ferreira Schiavon RA: ************
 /*Programa feito para simular gotas de chuva escorrendo de uma janela e dizer quantos passos foram até ela ficar totalmente seca.
 OBS: o tempo da função sleep, no Windows, é definido em segundos, ou seja, se sleep(3) então o programa espera 3 segundos até voltar, não sei
 se no Linux é em segundos também ou se é em milissegundos.*/
