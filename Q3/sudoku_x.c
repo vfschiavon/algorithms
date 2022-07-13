@@ -1,4 +1,4 @@
-//Nome: Vinícius Ferreira Schiavon RA: 202100560434
+//Nome: Vinícius Ferreira Schiavon RA: ************
 /*Programa feito para ler um sudoku X de um arquivo e verificar se ele está correto ou não.
 OBS: o programa apresenta uma função "Escreve" que exibe o sudoku para o usuário, como o enunciado não exigia a escrita do 
 sudoku eu deixei essa função marcada como comentário, mas caso queira ver ela funcionando, basta remover as marcações de
@@ -19,7 +19,7 @@ int main()
 
     sudoku = CriaMatriz();
     LeituraSudokuX(sudoku);
-    Escreve(sudoku);
+    //Escreve(sudoku);
     VerificaSudokuX(sudoku);
     LiberaMatriz(sudoku);
 
@@ -214,36 +214,36 @@ void VerificaSudokuX(int **mat)
     }
 }
 
-void Escreve(int **mat)
-{	
-    int i, j;
+// void Escreve(int **mat)
+// {	
+//     int i, j;
 
-    for (i = 0; i < 12; i++)
-    {
-        for (j = 0; j < 12; j++)
-        {
-            if (mat[i][j] < 10)
-            {
-                printf(" %d ", mat[i][j]);
-            }
-            else
-            {
-                printf("%d ", mat[i][j]);
-            }
+//     for (i = 0; i < 12; i++)
+//     {
+//         for (j = 0; j < 12; j++)
+//         {
+//             if (mat[i][j] < 10)
+//             {
+//                 printf(" %d ", mat[i][j]);
+//             }
+//             else
+//             {
+//                 printf("%d ", mat[i][j]);
+//             }
 
-            if ((j == 3) || (j == 7))
-            {
-                printf("| ");
-            }
-        }
-        printf("\n");
+//             if ((j == 3) || (j == 7))
+//             {
+//                 printf("| ");
+//             }
+//         }
+//         printf("\n");
 
-        if ((i == 2) || (i == 5) || (i == 8))
-        {
-            printf("------------|-------------|-------------\n");
-        }
-    }
-}
+//         if ((i == 2) || (i == 5) || (i == 8))
+//         {
+//             printf("------------|-------------|-------------\n");
+//         }
+//     }
+// }
 
 void LiberaMatriz(int **mat)
 {
